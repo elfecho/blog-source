@@ -24,7 +24,7 @@ git add -A
 git commit -m $1
 
 # 如果发布到 https://<USERNAME>.github.io
-git push -f git@github.com:elfecho/blog-pages.git master
+git push -f git@github.com:elfecho/elfecho.git master
 
 # 这里需要建两个仓库  一个放项目源文件 一个放gitpage  下面就是提交项目源文件的脚本
 cd ../../../

@@ -1,0 +1,25 @@
+{
+  "name": "my-blog",
+  "version": "1.1.9",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "vuepress dev docs --no-clear-screen",
+    "build": "vuepress build docs",
+    "gitalk": "vuepress gitalk ./docs",
+    "push:blog": "./deploy.sh"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@vuepress/plugin-back-to-top": "^1.0.0-rc.1",
+    "gitalk": "^1.5.0",
+    "min-barrage": "^0.0.10",
+    "vuepress": "^1.0.0-alpha.48",
+    "vuepress-plugin-gitalk": "^0.1.2"
+  },
+  "dependencies": {
+    "update": "^0.7.4",
+    "vuepress-theme-reform": "^1.5.1"
+  }
+}
